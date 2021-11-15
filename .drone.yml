@@ -1,6 +1,9 @@
 kind: pipeline
 name: basic-example
 type: docker
+platform:
+  os: linux
+  arch: arm
 
 clone:
   disable: true
